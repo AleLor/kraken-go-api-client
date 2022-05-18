@@ -31,8 +31,8 @@ const (
 	GNOEUR   = "GNOEUR"
 	GNOUSD   = "GNOUSD"
 	GNOXBT   = "GNOXBT"
-	LINKUSD   = "LINKUSD"
-	LINKXBT   = "LINKXBT"
+	LINKUSD  = "LINKUSD"
+	LINKXBT  = "LINKXBT"
 	QTUMCAD  = "QTUMCAD"
 	QTUMETH  = "QTUMETH"
 	QTUMEUR  = "QTUMEUR"
@@ -223,7 +223,7 @@ type AssetPairInfo struct {
 	// Stop-out/Liquidation margin level
 	MarginStop int `json:"margin_stop"`
 	// Order minimum
-	OrderMin float64 `json:"ordermin"`
+	OrderMin string `json:"ordermin"`
 }
 
 // AssetsResponse includes asset informations
